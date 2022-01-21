@@ -23,9 +23,16 @@ body {
     width: 100vw;
 }
 
-h1{
+.modello-di-punta h1  {
     text-transform: uppercase;
     font-size: 60px;
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 600px;
+    font-size: 200px;
+    text-align: center;
 }
 
 
@@ -40,6 +47,8 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
 
 
 
