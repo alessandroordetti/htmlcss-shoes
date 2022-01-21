@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 600;
+    color: yellow;
+}
+
+#first-pair {
+    position: relative;
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+
+
+#container {
+    position: relative;
+}
+
+#indigo-shoes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
