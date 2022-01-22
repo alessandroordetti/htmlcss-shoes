@@ -34,6 +34,11 @@ section h1 {
     right: 10px;
 }
 
+#number-menu>p:hover {
+    color: gray;
+    background-color: black;
+}
+
 #second-pair {
     position: relative;
     background-color: green;
