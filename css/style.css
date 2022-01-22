@@ -32,6 +32,10 @@ section h1 {
     position: absolute;
     top: 20px;
     right: 10px;
+    height: 70px;
+    padding: 10px;
+    position: fixed;
+    z-index: 3;
 }
 
 #number-menu>a:hover {
